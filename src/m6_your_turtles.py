@@ -2,10 +2,10 @@
 Your chance to explore Loops and Turtles!
 
 Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
-         Aaron Wilkin, their colleagues, and PUT_YOUR_NAME_HERE.
+         Aaron Wilkin, their colleagues, and Killian Bailey.
 """
 ########################################################################
-# TODO: 1.
+# Done: 1.
 #   On Line 5 above, replace  PUT_YOUR_NAME_HERE  with your own name.
 ########################################################################
 
@@ -28,3 +28,26 @@ Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
 #   Don't forget to COMMIT-and-PUSH when you are done with this module.
 #
 ########################################################################
+import rosegraphics as rg
+Phillip = rg.SimpleTurtle('turtle')
+Phillip.pen=rg.Pen('pink',3)
+Phillip.speed=10
+size=50
+k=20
+
+for k in range (10):
+    Phillip.forward(50 + k)
+    Phillip.right(90)
+    Phillip.forward(50 - k)
+    Phillip.draw_circle(size)
+import rosegraphics as rg
+Alice = rg.SimpleTurtle('turtle')
+Alice.pen=rg.Pen('black',8)
+Alice.speed=10
+size=25
+k=20
+for k in range (20):
+    Alice.forward(25 + k)
+    Alice.right(45)
+    Alice.forward(25 + k)
+    Alice.draw_square(size)

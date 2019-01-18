@@ -29,15 +29,17 @@ print(answer * 100)
 #   Run your code (fix errors as needed), then change the above _TODO_ to DONE.
 ###############################################################################
 import math
-print(77 + math.sin(2.75))
+x = (77 + math.cos(2.75))
+y = x ** (1/2)
+print(y)
 ###############################################################################
-# TODO: 3.
+# Done: 3.
 #   Immediately below this _TODO_, write code that computes and prints:
 #      the square root of ((41 * 88) + (4 * the cosine of 2))
 #   Use as few or as many intermediate names as you feel appropriate.
 #   Run your code (fix errors as needed), then change the above _TODO_ to DONE.
 ###############################################################################
-print
+print(math.sqrt(41 * 88)+ (4 * math.cos(2)))
 ###############################################################################
 # TODO: 4.
 #   Immediately below this _TODO_,

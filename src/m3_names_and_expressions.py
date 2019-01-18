@@ -52,7 +52,7 @@ print(math.sqrt(41 * 88)+ (4 * math.cos(2)))
 print(math.sqrt(2))
 print(2 ** (.5))
 ###############################################################################
-# TODO: 5.
+# Done: 5.
 #   Every object has a TYPE and a VALUE.  For example,
 #   for the object that is computed by  math.sqrt(2):
 #      Its TYPE is float  (which is shorthand for "floating point number").
@@ -106,7 +106,7 @@ print(type(math))
 print(type('math'))
 ###############################################################################
 #
-# TODO: 6.
+# Done: 6.
 #   Ensure that no blue bars on the scrollbar-thing to the right remain.
 #   Run one more time to be sure that all is still OK.
 #

@@ -126,7 +126,7 @@ natasha.go_to(rg.Point(-100, 200))
 #   As always, test by running the module.
 #
 ###############################################################################
-natasha.speed=10
+natasha.speed = 10
 natasha.go_to(rg.Point(-200,-300))
 boris.go_to(rg.Point(300,100))
 ###############################################################################
@@ -162,7 +162,7 @@ Edgar.forward(200)
 Edgar.backward(10)
 ###############################################################################
 #
-# TODO: 6.
+# Done: 6.
 #   Ensure that no blue bars on the scrollbar-thing to the right remain.
 #   Run one more time to be sure that all is still OK.
 #

@@ -155,11 +155,11 @@ boris.go_to(rg.Point(300,100))
 #   As always, test by running the module.
 #
 ###############################################################################
-Edgar = rg.SimpleTurtle('circle')
-Edgar.pen = rg.Pen('Blue', 10)
-Edgar.speed = 6
-Edgar.forward(200)
-Edgar.backward(10)
+edgar = rg.SimpleTurtle('circle')
+edgar.pen = rg.Pen('Blue', 10)
+edgar.speed = 6
+edgar.forward(200)
+edgar.backward(10)
 ###############################################################################
 #
 # Done: 6.

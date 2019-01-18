@@ -41,7 +41,7 @@ print(y)
 ###############################################################################
 print(math.sqrt(41 * 88)+ (4 * math.cos(2)))
 ###############################################################################
-# TODO: 4.
+# Done: 4.
 #   Immediately below this _TODO_,
 #   write code that computes the square root of 2 in two ways:
 #     - By using the   math.sqrt   function.
@@ -49,8 +49,8 @@ print(math.sqrt(41 * 88)+ (4 * math.cos(2)))
 #   Print both of the expressions that you write.
 #   Run your code (fix errors as needed), then change the above _TODO_ to DONE.
 ###############################################################################
-
-
+print(math.sqrt(2))
+print(2 ** (.5))
 ###############################################################################
 # TODO: 5.
 #   Every object has a TYPE and a VALUE.  For example,
@@ -91,7 +91,19 @@ print(math.sqrt(41 * 88)+ (4 * math.cos(2)))
 # After you have written and run the code to learn the TYPE
 # of each of the above, change the above _TODO_ to DONE.
 ###############################################################################
-
+print(type("hello"))
+print(type('hello'))
+print(type('3+3'))
+print(type('a b c'))
+print(type(3 + 3))
+print(type("3" + "3"))
+print(type(2 ** 100))
+print(type(2.0 ** 100))
+print(type(math.sin(8)))
+print(type(math.sin))
+print(type(print))
+print(type(math))
+print(type('math'))
 ###############################################################################
 #
 # TODO: 6.
